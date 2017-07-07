@@ -1,0 +1,14 @@
+https://$user:$apiKey@api.softlayer.com/rest/v3/SoftLayer_Network_Storage/7366213/allowAccessFromHostList
+
+Method: Post
+
+{  
+   "parameters":[  
+      [  
+         {  
+            "id":193924,
+            "objectType":"SoftLayer_Hardware"
+         }
+      ]
+   ]
+}
