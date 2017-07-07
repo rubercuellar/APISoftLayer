@@ -1,4 +1,4 @@
-https://$user:$apiKey@api.softlayer.com/rest/v3/SoftLayer_Product_Order/verifyOrder
+https://$user:$apiKey@api.softlayer.com/rest/v3/SoftLayer_Product_Order/placeOrder
 
 Method: Post
 
