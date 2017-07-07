@@ -1,0 +1,22 @@
+https://$user:$apiKey@api.softlayer.com/rest/v3/SoftLayer_Product_Order/verifyOrder
+
+Method: Post
+
+{  
+   "parameters":[  
+      {  
+         "complexType":"SoftLayer_Container_Product_Order_Network_Vlan",
+         "packageId":0,
+         "prices":[  
+            {  
+               "id":51775
+            },
+            {  
+               "id":36696
+            }
+         ],
+         "quantity":1,
+         "routerId":468136
+      }
+   ]
+}
