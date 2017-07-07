@@ -1,0 +1,34 @@
+https://$user:$apiKey8@api.softlayer.com/rest/v3/SoftLayer_Product_Order/verifyOrder
+
+Method: Post
+
+
+{  
+   "parameters":[  
+      {  
+         "complexType":"SoftLayer_Container_Product_Order_Network_Storage_AsAService",
+         "packageId":759,
+         "location":"265592",
+         "prices":[  
+            {  
+               "id":189433
+            },
+            {  
+               "id":192043
+            },
+            {  
+               "id":189443
+            },
+            {  
+               "id":192063
+            }
+         ],
+         "osFormatType":{  
+            "id":12,
+            "keyName":"LINUX"
+         },
+         "volumeSize":20,
+         "quantity":1
+      }
+   ]
+}
