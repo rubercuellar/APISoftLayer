@@ -1,0 +1,71 @@
+https://$user:$apiKey@api.softlayer.com/rest/v3/SoftLayer_Product_Order/verifyOrder
+
+Method: Post
+
+
+{  
+   "parameters":[  
+      {  
+         "complexType":"SoftLayer_Container_Product_Order",
+         "packageId":261,
+         "location":"DALLAS05",
+         "hardware":[  
+            {  
+               "hostname":"rcvtest",
+               "domain":"softlayer.com",
+               "primaryBackendNetworkComponent":{  
+                  "networkVlanId":23423434
+               },
+               "primaryNetworkComponent":{  
+                  "networkVlanId":123123123
+               }
+            }
+         ],
+         "prices":[  
+            {  
+               "id":50461
+            },
+            {  
+               "id":50377
+            },
+            {  
+               "id":44988
+            },
+            {  
+               "id":876
+            },
+            {  
+               "id":50041
+            },
+            {  
+               "id":50357
+            },
+            {  
+               "id":273
+            },
+            {  
+               "id":55
+            },
+            {  
+               "id":58
+            },
+            {  
+               "id":420
+            },
+            {  
+               "id":418
+            },
+            {  
+               "id":21
+            },
+            {  
+               "id":57
+            },
+            {  
+               "id":906
+            }
+         ],
+         "quantity":1
+      }
+   ]
+}
